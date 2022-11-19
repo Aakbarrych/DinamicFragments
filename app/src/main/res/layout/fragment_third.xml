@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdFragment"
+    android:id="@+id/fr3">
+
+    <ImageView
+        android:id="@+id/img_third"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/sharp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:textSize="30dp"
+        android:background="@color/white"
+        android:text="Vaccines save hundred of lives a year"
+        android:gravity="center"
+        android:textAllCaps="true"
+        />
+
+<!--    <TextView-->
+<!--        android:id="@+id/p5_3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="350dp"-->
+<!--        android:text="This “memory” can last years, or in some cases for life, which is why vaccination can be so effective, stopping people from getting sick rather than waiting until disease occurs. "-->
+<!--        android:textSize="20dp"-->
+<!--        android:gravity="center"-->
+<!--        />-->
+
+</FrameLayout>

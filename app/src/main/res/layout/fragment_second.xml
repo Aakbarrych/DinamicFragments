@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment"
+    android:id="@+id/fr2">
+
+    <ImageView
+        android:id="@+id/img_first"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/helping"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:textSize="30dp"
+        android:background="@color/white"
+        android:text="Vaccines save thousand of lives a year"
+        android:gravity="center"
+        android:textAllCaps="true"
+        />
+
+<!--    <TextView-->
+<!--        android:id="@+id/p5_2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="350dp"-->
+<!--        android:text="They do this by priming a person’s immune system to recognise a specific disease-causing bacteria, virus or other pathogen."-->
+<!--        android:textSize="20dp"-->
+<!--        android:gravity="center"-->
+<!--        />-->
+
+</FrameLayout>
